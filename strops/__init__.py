@@ -1,0 +1,1 @@
+from .strops import getspan, reverseWords, removePunctuation, countWords, charecterMap, makeTitle, normalizeSpaces, transform, getPermutations

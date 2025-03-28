@@ -1,0 +1,1 @@
+strops @ file:///C:/Users/292596/Documents/strops_project
