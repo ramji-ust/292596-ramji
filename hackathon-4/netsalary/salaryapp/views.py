@@ -31,4 +31,4 @@ def jumble_word(request):
         random.shuffle(word_list)
         jumbled = ''.join(word_list)
 
-    return render(request, 'jumble.html', {'jumbled': jumbled})
+    return render(request, 'jumble.html', {'jumbled': jumbled}) 
