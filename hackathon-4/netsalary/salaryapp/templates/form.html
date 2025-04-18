@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Employee Salary Form</h2>
+<form method="post" action="{% url 'salary_result' %}">
+    {% csrf_token %}
+    Name: <input type="text" name="name" required><br>
+    Age: <input type="number" name="age" required><br>
+    Company: <input type="text" name="company" required><br>
+    Gross Salary: <input type="number" name="gross_salary" required><br>
+    Tax (%): <input type="number" name="tax" required><br>
+    Bonus (%): <input type="number" name="bonus" required><br>
+    <button type="submit">Calculate</button>
+</form>
+</body>
+</html>
